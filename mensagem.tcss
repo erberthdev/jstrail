@@ -1,0 +1,40 @@
+Screen {
+    align: center middle;
+}
+
+Aviso {
+    width: 55;
+    height: 11;
+    padding: 1 2;
+    background: $panel;
+    color: $text;
+    border: round $warning;
+    content-align: center middle;
+    text-align: center;
+}
+
+#entrada {
+    width: 60;
+}
+
+#sugestoes {
+    width: 60;
+    height: auto;
+    max-height: 10;
+}
+
+#sugestoes > ListItem {
+    height: 2;
+}
+
+#sugestoes > ListItem.selecionado {
+    background: $accent;
+    color: $text;
+}
+
+#saida {
+    width: 60;
+    height: auto;
+    min-height: 5;
+    padding: 1;
+}
